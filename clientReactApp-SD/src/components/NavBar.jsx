@@ -30,19 +30,7 @@ export default function ButtonAppBar() {
 
         {/*keeps buttons to the right of nav bar*/}
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} />
-        
-
-        <div className='navTabs'>
-          <Link to="/qc" style={{ textDecoration: 'none', color: 'inherit' }}>                          {/*style prop keeps the button white*/}
-            <Button color="inherit" sx={{ fontSize: '1.2rem', fontWeight: 'bold' }}>Contact Me</Button>         {/*sx prop changes text properties*/}
-          </Link>
-        </div>
-
       
-        <div id='toggle'>
-          <DrawerToggle />
-        </div>
-
         
       </Toolbar>
     </AppBar>
